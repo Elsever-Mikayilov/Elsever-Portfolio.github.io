@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>Elsevar Mikayılov</h1>
+        <ul class="navigation">
+            <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="#" class="nav-link">Skills</a></li>
+            <li><a href="#" class="nav-link">Projects</a></li>
+            <li><a href="index.html" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <!-- <i class="fas fa-bars"></i> -->
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+            <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+        </button>
+    </nav>
+
+    <!-- section -->
+    <div class="hero">
+       <img src="img/profil.jpeg" download class="elsever" alt="">
+       <div class="bio">
+           <h2 class="bio-title">ABOUT ME</h2>
+           <p class="bio-text">
+            My name is Elsever and I was born Nakhchivan (27 years old). I have 
+            bachelor’s and master’s degrees in chemical engineering from 
+            Ataturk University in Turkey. I have always been interested in web 
+            programming and I went to courses and learned. I have a Front end Developer Certificate. I have the ability to write clean code.
+           </p>
+       </div>
+    </div>
+
+   
+
+    <!-- Skills -->
+    <div class="skills">
+        <h2 class="skill-header">MY TOP SKILLS</h2>
+
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img
+                  src="img/html.png"
+                  alt=""
+                  class="icon icon-card"
+                />
+                <img
+                  src="img/css.png"
+                  alt=""
+                  class="icon icon-card"
+                />
+                <img
+                  src="img/js.png"
+                  alt=""
+                  class="icon icon-card"
+                />
+              </div>
+
+              <div class="second-set animate__animated animate__pulse">
+                <img
+                  src="img/btstrp.png"
+                  alt=""
+                  class="icon icon-card"
+                />
+                <img
+                  src="img/react.png"
+                  alt=""
+                  class="icon icon-card"
+                />
+                <img
+                  src="img/git-icon.png"
+                  alt=""
+                  class="icon icon-card"
+                />
+              </div>
+
+        </div>
+    </div>
+
+
+ <!-- projects -->
+
+
+    <section class="projects" id="projects">
+        <h2 class="projects-title">SOME OF MY RECENT PROJECTS</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="img/ok.ru.png"
+              alt="Odnoklassniki"
+              
+              class="project-pic"
+            />
+            <h3 class="project-title">Odnoklassniki Clone</h3>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="img/youtube.png"
+              alt="youtube-clone"
+             
+              class="project-pic"
+            />
+            <h3 class="project-title">Youtube Clone</h3>
+           
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="img/itt.png"
+              alt="greeny-earth"
+             
+              class="project-pic"
+            />
+            <h3 class="project-title">IT Brains-Portfolio</h3>
+         
+          </div>
+        </div>
+      </section>
+
+      <!-- contacts -->
+
+      <section class="contact" id="contact">
+        <h2>GET IN TOUCH WITH ME</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/xyylnggw" method="POST">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="SUBMIT"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+
+
+      <div class="socials">
+        <a href="https://wa.me/+994508065303" target="_blank"
+          ><img
+            src="img/wpp.gif"
+            alt="whatsapp"
+            class="socicon"
+        /></a>
+        <a href="https://www.instagram.com/smert19o3/" target="_blank"
+          ><img
+            src="img/source.gif"
+            alt="Instagram"
+            class="socicon"
+        /></a>
+        <a href="https://www.linkedin.com/in/elsevar-mikayilov/" target="_blank"
+          ><img
+            src="img/icons8-linkedin-circled.gif"
+            alt="Linkedin"
+            class="socicon"
+        /></a>
+        <a href="https://github.com/Elsever-Mikayilov" target="_blank"
+          ><img src="img/icons8-github.gif" alt="Github" class="socicon"
+        /></a>
+      </div>
+  
+     
+  
+      <!-- Footer section -->
+      <footer>
+        <p class="copy">&copy; Copyright 2022</p>
+        <p class="copy">
+          Built with by |
+          <a href="#" target="_blank"
+            >Elsevar Mikayılov</a
+          >
+        </p>
+      </footer>
+
+      <script src="index.js"></script>
+
+
+      <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+</body>
+</html>
